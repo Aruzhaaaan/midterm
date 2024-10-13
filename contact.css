@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bruno-van-der-kraan-cFz26K7FmEU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: hsl(237, 100%, 81%);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f6f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: hsl(237, 100%, 81%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(237, 100%, 81%);
+}
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.fa-instagram
+{
+   font-size: 50px;
+   color: rgb(22, 20, 20);
+}
+.location {
+    margin-top: 20px;
+}
+
+.location img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
